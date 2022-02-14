@@ -1,8 +1,8 @@
 <?php
-//define('C_REST_CLIENT_ID','local.5ee13cfa449a42.76061591');//Application ID
+//define('C_REST_CLIENT_ID','local.5ee13cfa');//Application ID
 //define('C_REST_CLIENT_SECRET','6FC9l6VgrSRx6Ce4mwRWvumjWlvJ4kBpqH26v0LhZF92zCtnDO');//Application key
 // or
-define('C_REST_WEB_HOOK_URL','https://crm.domain.com/rest/1/23odl51wmxp7ea4p/');//url on creat Webhook
+define('C_REST_WEB_HOOK_URL','https://crm.domain.com/rest/1/2325/');//url on creat Webhook
 
 //define('C_REST_CURRENT_ENCODING','windows-1251');
 //define('C_REST_IGNORE_SSL',true);//turn off validate ssl by curl
