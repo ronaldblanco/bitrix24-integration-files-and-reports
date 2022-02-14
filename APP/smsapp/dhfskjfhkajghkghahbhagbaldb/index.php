@@ -392,7 +392,7 @@ function getusername($id,$users){
 				<div class="tab-pane fade show active" id="SMS" role="tabpanel" aria-labelledby="SMS-tab">
 					SMS/MMS Time Line <a href="https://crm.domain.com/crm/contact/details/<?php echo $row['contactid'];?>/" target="_blank"><?php echo $row['contactid'].":".$row['contactname'];?></a><?php echo ", PHONE: " . $row['contactphone'];?>
 
-					<form action="https://techcnet.com/SMS/qwteuuo856fg/sendSMS.php" method="post" styles>
+					<form action="https://techcnet.com/SMS/1234/sendSMS.php" method="post" styles>
 						<div class="form-group">
 							<input type="hidden" class="form-control" name="message_to" value='<?php echo $row['contactphone'];?>'>
 							<input type="hidden" class="form-control" name="bindings[0][OWNER_ID]" value='<?php echo $row['contactid'];?>'>
